@@ -1,0 +1,28 @@
+.form {
+    position: fixed;
+    width: 200px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    background: hsl(0, 0%, 92%);
+    flex-direction: column;
+    padding: 20px;
+}
+
+.form button {
+    cursor: pointer;
+}
+
+.form__header {
+    display: flex;
+    justify-content: end;
+}
+
+.form__body * {
+    margin-bottom: 10px;
+}
+
+.form__body input {
+    border: none;
+}

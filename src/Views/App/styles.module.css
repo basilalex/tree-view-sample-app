@@ -1,0 +1,16 @@
+.app {
+    border-radius: 5px;
+    border: 1px solid blue;
+}
+
+.app__description {
+    background-color: blue;
+    color: #fff;
+    margin: 0;
+    padding: 10px;
+}
+
+.app__content,
+.app__footer {
+    padding: 20px;
+}

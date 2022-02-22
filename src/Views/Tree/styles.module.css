@@ -1,0 +1,14 @@
+.tree {
+    position: relative;
+    padding-left: 40px;
+}
+
+.tree__header {
+    display: flex;
+    color: blue;
+    cursor: pointer;
+}
+
+.tree__header div {
+    margin-right: 10px;
+}
